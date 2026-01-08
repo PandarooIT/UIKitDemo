@@ -1,0 +1,19 @@
+//
+//  ViewController.swift
+//  UIKitBasic
+//
+//  Created by Macbook on 08/01/2026.
+//
+
+import UIKit
+
+class ViewController: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view.
+    }
+
+
+}
+
