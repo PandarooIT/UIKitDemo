@@ -20,7 +20,7 @@ class LabelViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        print("Hello")
         view.backgroundColor = .white
         
         textLabel.text = "Hello World!"
