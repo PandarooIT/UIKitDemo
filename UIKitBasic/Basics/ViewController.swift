@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("Hel21lo")
         view.backgroundColor = .systemBlue
         
         greetingLabel.text = "Hello Panda!"
