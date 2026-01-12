@@ -33,11 +33,10 @@ class StackViewController: UIViewController {
     
     func createRectangle() -> UIView {
         let rect = UIView()
-        rect.backgroundColor = .systemRed
+        rect.backgroundColor = .systemGray
         rect.translatesAutoresizingMaskIntoConstraints = false
         rect.widthAnchor.constraint(equalToConstant: 100).isActive = true
         rect.heightAnchor.constraint(equalToConstant: 100).isActive = true
-        
         return rect
     }
 
