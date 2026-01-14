@@ -16,8 +16,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     
         guard let windowScene = (scene as? UIWindowScene) else { return }
         window = UIWindow(windowScene: windowScene)
-        let rootVC = ScrollViewViewController()
-        rootVC.view.backgroundColor = .white
+        let rootVC = ClassViewController(nibName: "ClassViewController", bundle: nil)
         window?.rootViewController = rootVC
         window?.makeKeyAndVisible()
     }

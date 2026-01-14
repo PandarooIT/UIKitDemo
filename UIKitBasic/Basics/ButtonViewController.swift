@@ -9,7 +9,6 @@ import UIKit
 import SwiftUI
 
 class ButtonViewController: UIViewController {
-
     private var showNameButton: UIButton = {
         var button = UIButton(type: .system)
         button.setTitle("Show Name", for: .normal)

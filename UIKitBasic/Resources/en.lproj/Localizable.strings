@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  UIKitBasic
+
+  Created by Macbook on 13/1/26.
+  Copyright © 2026 Pan Nguyen. All rights reserved.
+*/
+
+"title_login" = "Sign in to your Account";
+"description_login" = "Enter your email and password to log in ";
+"login" = "Log in";
+"continue_with_gg" = "Continue with Google";
+"continue_with_fb" = "Continue with Facebook";
+"do_not_have_account" = "Don’t have an account?";
+"signup" = "Sign Up";
