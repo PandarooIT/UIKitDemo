@@ -28,11 +28,25 @@
 		FA8AF99F2F17582400068B7A /* ClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF99E2F17582400068B7A /* ClassViewController.swift */; };
 		FA8AF9A62F177F5600068B7A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF9A52F177F5600068B7A /* Vehicle.swift */; };
 		FA8AF9A82F1788FB00068B7A /* ClassViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8AF9A72F1788FB00068B7A /* ClassViewController.xib */; };
+		FA8AF9AA2F18918300068B7A /* TableViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8AF9A92F18918300068B7A /* TableViewDemoViewController.xib */; };
+		FA8AF9AC2F18927900068B7A /* TableViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF9AB2F18927900068B7A /* TableViewDemoViewController.swift */; };
+		FA8AF9B52F18A9A100068B7A /* DemoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8AF9B32F18A9A100068B7A /* DemoTableViewCell.swift */; };
+		FA8AF9B62F18A9A100068B7A /* DemoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA8AF9B42F18A9A100068B7A /* DemoTableViewCell.xib */; };
 		FA8E6C952F0FACC500BE129F /* ViewControllerPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E6C942F0FACC500BE129F /* ViewControllerPreview.swift */; };
 		FAA275732F10F70800805227 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA275722F10F70800805227 /* StackViewController.swift */; };
 		FAA275752F10FBE500805227 /* TextFieldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA275742F10FBE500805227 /* TextFieldViewController.swift */; };
 		FAA7B60C2F10E51B0064839B /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7B60B2F10E51B0064839B /* ImageViewController.swift */; };
 		FAA7B60E2F10E8D70064839B /* ShapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7B60D2F10E8D70064839B /* ShapeViewController.swift */; };
+		FAAEC86B2F1DC63000A4144A /* CalculatorCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEC86A2F1DC63000A4144A /* CalculatorCollectionViewController.xib */; };
+		FAAEC86C2F1DC63000A4144A /* CalculatorCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC8692F1DC63000A4144A /* CalculatorCollectionViewController.swift */; };
+		FAAEC86F2F1DC64D00A4144A /* CalculatorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEC86E2F1DC64D00A4144A /* CalculatorViewCell.xib */; };
+		FAAEC8702F1DC64D00A4144A /* CalculatorViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC86D2F1DC64D00A4144A /* CalculatorViewCell.swift */; };
+		FAAEC8722F1DC96800A4144A /* CalculatorButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC8712F1DC96800A4144A /* CalculatorButton.swift */; };
+		FAAEC8742F1DC99A00A4144A /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC8732F1DC99A00A4144A /* Calculator.swift */; };
+		FAAEC8782F1DE3C900A4144A /* UserInteractionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEC8772F1DE3C900A4144A /* UserInteractionViewController.xib */; };
+		FAAEC8792F1DE3C900A4144A /* UserInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC8762F1DE3C900A4144A /* UserInteractionViewController.swift */; };
+		FAAEC87D2F1E152000A4144A /* LifecycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEC87C2F1E152000A4144A /* LifecycleViewController.xib */; };
+		FAAEC87E2F1E152000A4144A /* LifecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC87B2F1E152000A4144A /* LifecycleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,11 +73,25 @@
 		FA8AF99E2F17582400068B7A /* ClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassViewController.swift; sourceTree = "<group>"; };
 		FA8AF9A52F177F5600068B7A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		FA8AF9A72F1788FB00068B7A /* ClassViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ClassViewController.xib; sourceTree = "<group>"; };
+		FA8AF9A92F18918300068B7A /* TableViewDemoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewDemoViewController.xib; sourceTree = "<group>"; };
+		FA8AF9AB2F18927900068B7A /* TableViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoViewController.swift; sourceTree = "<group>"; };
+		FA8AF9B32F18A9A100068B7A /* DemoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTableViewCell.swift; sourceTree = "<group>"; };
+		FA8AF9B42F18A9A100068B7A /* DemoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DemoTableViewCell.xib; sourceTree = "<group>"; };
 		FA8E6C942F0FACC500BE129F /* ViewControllerPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerPreview.swift; sourceTree = "<group>"; };
 		FAA275722F10F70800805227 /* StackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		FAA275742F10FBE500805227 /* TextFieldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldViewController.swift; sourceTree = "<group>"; };
 		FAA7B60B2F10E51B0064839B /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		FAA7B60D2F10E8D70064839B /* ShapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeViewController.swift; sourceTree = "<group>"; };
+		FAAEC8692F1DC63000A4144A /* CalculatorCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorCollectionViewController.swift; sourceTree = "<group>"; };
+		FAAEC86A2F1DC63000A4144A /* CalculatorCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculatorCollectionViewController.xib; sourceTree = "<group>"; };
+		FAAEC86D2F1DC64D00A4144A /* CalculatorViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewCell.swift; sourceTree = "<group>"; };
+		FAAEC86E2F1DC64D00A4144A /* CalculatorViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalculatorViewCell.xib; sourceTree = "<group>"; };
+		FAAEC8712F1DC96800A4144A /* CalculatorButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButton.swift; sourceTree = "<group>"; };
+		FAAEC8732F1DC99A00A4144A /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		FAAEC8762F1DE3C900A4144A /* UserInteractionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractionViewController.swift; sourceTree = "<group>"; };
+		FAAEC8772F1DE3C900A4144A /* UserInteractionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInteractionViewController.xib; sourceTree = "<group>"; };
+		FAAEC87B2F1E152000A4144A /* LifecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleViewController.swift; sourceTree = "<group>"; };
+		FAAEC87C2F1E152000A4144A /* LifecycleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifecycleViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +156,9 @@
 		FA7162C62F0F4F0100CDB042 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				FAAEC87A2F1E150000A4144A /* Lifecycle */,
+				FAAEC8752F1DE3A500A4144A /* UserInteraction */,
+				FAAEC8662F1DC5C900A4144A /* CalculatorCollectionView */,
 				FA8AF9A22F1758ED00068B7A /* CollectionViewDemo */,
 				FA8AF9A12F1758E600068B7A /* TableViewDemo */,
 				FA8AF9A02F1758D200068B7A /* BasicView */,
@@ -212,6 +243,10 @@
 		FA8AF9A12F1758E600068B7A /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FA8AF9A92F18918300068B7A /* TableViewDemoViewController.xib */,
+				FA8AF9AB2F18927900068B7A /* TableViewDemoViewController.swift */,
+				FA8AF9B32F18A9A100068B7A /* DemoTableViewCell.swift */,
+				FA8AF9B42F18A9A100068B7A /* DemoTableViewCell.xib */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -229,6 +264,37 @@
 				FA8AF9A52F177F5600068B7A /* Vehicle.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		FAAEC8662F1DC5C900A4144A /* CalculatorCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEC8692F1DC63000A4144A /* CalculatorCollectionViewController.swift */,
+				FAAEC86A2F1DC63000A4144A /* CalculatorCollectionViewController.xib */,
+				FAAEC86D2F1DC64D00A4144A /* CalculatorViewCell.swift */,
+				FAAEC86E2F1DC64D00A4144A /* CalculatorViewCell.xib */,
+				FAAEC8712F1DC96800A4144A /* CalculatorButton.swift */,
+				FAAEC8732F1DC99A00A4144A /* Calculator.swift */,
+			);
+			path = CalculatorCollectionView;
+			sourceTree = "<group>";
+		};
+		FAAEC8752F1DE3A500A4144A /* UserInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEC8762F1DE3C900A4144A /* UserInteractionViewController.swift */,
+				FAAEC8772F1DE3C900A4144A /* UserInteractionViewController.xib */,
+			);
+			path = UserInteraction;
+			sourceTree = "<group>";
+		};
+		FAAEC87A2F1E150000A4144A /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				FAAEC87B2F1E152000A4144A /* LifecycleViewController.swift */,
+				FAAEC87C2F1E152000A4144A /* LifecycleViewController.xib */,
+			);
+			path = Lifecycle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,12 +356,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAEC86B2F1DC63000A4144A /* CalculatorCollectionViewController.xib in Resources */,
 				FA7162BC2F0F4D0600CDB042 /* LaunchScreen.storyboard in Resources */,
 				FA0384872F1625EC00EA53BF /* Localizable.strings in Resources */,
+				FAAEC86F2F1DC64D00A4144A /* CalculatorViewCell.xib in Resources */,
+				FA8AF9AA2F18918300068B7A /* TableViewDemoViewController.xib in Resources */,
 				FA7162B92F0F4D0600CDB042 /* Assets.xcassets in Resources */,
 				FA8AF9A82F1788FB00068B7A /* ClassViewController.xib in Resources */,
 				FA7162B72F0F4D0300CDB042 /* Main.storyboard in Resources */,
+				FAAEC8782F1DE3C900A4144A /* UserInteractionViewController.xib in Resources */,
+				FA8AF9B62F18A9A100068B7A /* DemoTableViewCell.xib in Resources */,
 				FA8AF9912F17548C00068B7A /* CalculatorViewController.xib in Resources */,
+				FAAEC87D2F1E152000A4144A /* LifecycleViewController.xib in Resources */,
 				FA8AF9972F1757ED00068B7A /* StructViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,20 +379,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA8AF9B52F18A9A100068B7A /* DemoTableViewCell.swift in Sources */,
+				FAAEC87E2F1E152000A4144A /* LifecycleViewController.swift in Sources */,
 				FAA275752F10FBE500805227 /* TextFieldViewController.swift in Sources */,
 				FA7162B42F0F4D0300CDB042 /* ViewController.swift in Sources */,
 				FA8AF9932F1754C600068B7A /* CalculatorViewController.swift in Sources */,
 				FA8AF9A62F177F5600068B7A /* Vehicle.swift in Sources */,
 				FA8E6C952F0FACC500BE129F /* ViewControllerPreview.swift in Sources */,
 				FA0384842F16216F00EA53BF /* LoginViewController.swift in Sources */,
+				FAAEC8722F1DC96800A4144A /* CalculatorButton.swift in Sources */,
 				FA7162B02F0F4D0300CDB042 /* AppDelegate.swift in Sources */,
 				FA0384802F15F84B00EA53BF /* TableViewCellController.swift in Sources */,
+				FAAEC8792F1DE3C900A4144A /* UserInteractionViewController.swift in Sources */,
 				FA0384822F15FC9400EA53BF /* Video.swift in Sources */,
 				FA0EA81D2F14957300DF34DA /* ScrollViewViewController.swift in Sources */,
 				FAA7B60C2F10E51B0064839B /* ImageViewController.swift in Sources */,
+				FAAEC8742F1DC99A00A4144A /* Calculator.swift in Sources */,
 				FAA7B60E2F10E8D70064839B /* ShapeViewController.swift in Sources */,
 				FA7162B22F0F4D0300CDB042 /* SceneDelegate.swift in Sources */,
+				FAAEC86C2F1DC63000A4144A /* CalculatorCollectionViewController.swift in Sources */,
+				FA8AF9AC2F18927900068B7A /* TableViewDemoViewController.swift in Sources */,
 				FAA275732F10F70800805227 /* StackViewController.swift in Sources */,
+				FAAEC8702F1DC64D00A4144A /* CalculatorViewCell.swift in Sources */,
 				FA7162CD2F0F99AF00CDB042 /* ButtonViewController.swift in Sources */,
 				FA03847D2F15F82700EA53BF /* TableViewViewController.swift in Sources */,
 				FA8AF99F2F17582400068B7A /* ClassViewController.swift in Sources */,
