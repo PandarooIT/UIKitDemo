@@ -15,13 +15,33 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
     
         guard let windowScene = (scene as? UIWindowScene) else { return }
-        window = UIWindow(windowScene: windowScene)
-        let rootVC = UserInteractionViewController(nibName: "UserInteractionViewController", bundle: nil)
         
-        let navigationController = UINavigationController(rootViewController: rootVC)
-            
-        window?.rootViewController = navigationController
-        window?.makeKeyAndVisible()
+        // 1
+//        window = UIWindow(windowScene: windowScene)
+//        let rootVC = TestViewController(nibName: "TestViewController", bundle: nil)
+//        
+//        let navigationController = UINavigationController(rootViewController: rootVC)
+//            
+//        window?.rootViewController = navigationController
+//        window?.makeKeyAndVisible()
+        
+        // 2
+//        guard let windowScene = (scene as? UIWindowScene) else { return }
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let navigationController = UINavigationController()
+//        let tabbarController = TabBarRouter.createModule(using: navigationController)
+//        self.window?.rootViewController = tabbarController
+//        window?.makeKeyAndVisible()
+//        window?.windowScene = windowScene
+        
+        let window = UIWindow(windowScene: windowScene)
+
+        let rootVC = RxRouter.createModule()
+        let navigation = UINavigationController(rootViewController: rootVC)
+
+        window.rootViewController = navigation
+        window.makeKeyAndVisible()
+        self.window = window
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

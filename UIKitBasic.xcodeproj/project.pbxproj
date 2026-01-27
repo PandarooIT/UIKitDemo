@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,28 @@
 		FA0384842F16216F00EA53BF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0384832F16216F00EA53BF /* LoginViewController.swift */; };
 		FA0384872F1625EC00EA53BF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA0384852F1625EC00EA53BF /* Localizable.strings */; };
 		FA0EA81D2F14957300DF34DA /* ScrollViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0EA81C2F14957300DF34DA /* ScrollViewViewController.swift */; };
+		FA2C43362F287D3500C1441F /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2C43352F287D3300C1441F /* Model.swift */; };
+		FA579A322F21FC8200098937 /* TabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A2F2F21FC8200098937 /* TabBarPresenter.swift */; };
+		FA579A332F21FC8200098937 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A2E2F21FC8200098937 /* TabBarController.swift */; };
+		FA579A342F21FC8200098937 /* TabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A302F21FC8200098937 /* TabBarRouter.swift */; };
+		FA579A3A2F22007800098937 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A382F22007800098937 /* CollectionViewCell.swift */; };
+		FA579A3B2F22007800098937 /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA579A392F22007800098937 /* CollectionViewCell.xib */; };
+		FA579A502F22092700098937 /* MockHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A4E2F22092700098937 /* MockHomeRouter.swift */; };
+		FA579A512F22092700098937 /* MockHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A4D2F22092700098937 /* MockHomeInteractor.swift */; };
+		FA579A522F22092700098937 /* MockHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A4C2F22092700098937 /* MockHomeView.swift */; };
+		FA579A562F2218C000098937 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA579A542F2218C000098937 /* TestViewController.swift */; };
+		FA579A572F2218C000098937 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA579A552F2218C000098937 /* TestViewController.xib */; };
+		FA5EF4F12F20853B00EAD431 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA5EF4F02F20853B00EAD431 /* HomeViewController.xib */; };
+		FA5EF4F22F20853B00EAD431 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4EF2F20853B00EAD431 /* HomeViewController.swift */; };
+		FA5EF4F42F2086D600EAD431 /* HomeInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4F32F2086D600EAD431 /* HomeInteractorProtocol.swift */; };
+		FA5EF4F62F2086F500EAD431 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4F52F2086F500EAD431 /* BaseModel.swift */; };
+		FA5EF4F82F20872000EAD431 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4F72F20872000EAD431 /* HomeInteractor.swift */; };
+		FA5EF4FA2F20874D00EAD431 /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4F92F20874D00EAD431 /* LocalService.swift */; };
+		FA5EF4FC2F2087DE00EAD431 /* HomePresenterProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4FB2F2087DE00EAD431 /* HomePresenterProtocal.swift */; };
+		FA5EF4FE2F20880800EAD431 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4FD2F20880800EAD431 /* HomePresenter.swift */; };
+		FA5EF5002F2088A400EAD431 /* HomeViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF4FF2F2088A400EAD431 /* HomeViewProtocol.swift */; };
+		FA5EF5022F208B3C00EAD431 /* HomeRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF5012F208B3C00EAD431 /* HomeRouterProtocol.swift */; };
+		FA5EF5042F208B4800EAD431 /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5EF5032F208B4800EAD431 /* HomeRouter.swift */; };
 		FA7162B02F0F4D0300CDB042 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7162AF2F0F4D0300CDB042 /* AppDelegate.swift */; };
 		FA7162B22F0F4D0300CDB042 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7162B12F0F4D0300CDB042 /* SceneDelegate.swift */; };
 		FA7162B42F0F4D0300CDB042 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7162B32F0F4D0300CDB042 /* ViewController.swift */; };
@@ -47,7 +69,40 @@
 		FAAEC8792F1DE3C900A4144A /* UserInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC8762F1DE3C900A4144A /* UserInteractionViewController.swift */; };
 		FAAEC87D2F1E152000A4144A /* LifecycleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAAEC87C2F1E152000A4144A /* LifecycleViewController.xib */; };
 		FAAEC87E2F1E152000A4144A /* LifecycleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAEC87B2F1E152000A4144A /* LifecycleViewController.swift */; };
+		FAE7C5862F2757C50011DF14 /* RxBlocking in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5852F2757C50011DF14 /* RxBlocking */; };
+		FAE7C5882F2757C50011DF14 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5872F2757C50011DF14 /* RxCocoa */; };
+		FAE7C58A2F2757C50011DF14 /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5892F2757C50011DF14 /* RxRelay */; };
+		FAE7C58C2F2757C50011DF14 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C58B2F2757C50011DF14 /* RxSwift */; };
+		FAE7C58E2F2757C50011DF14 /* RxTest in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C58D2F2757C50011DF14 /* RxTest */; };
+		FAE7C5992F2865360011DF14 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5982F2865360011DF14 /* Realm */; };
+		FAE7C59B2F2865360011DF14 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C59A2F2865360011DF14 /* RealmSwift */; };
+		FAE7C5BD2F2867340011DF14 /* RxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5BB2F2867340011DF14 /* RxViewController.swift */; };
+		FAE7C5BE2F2867340011DF14 /* RxViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE7C5BC2F2867340011DF14 /* RxViewController.xib */; };
+		FAE7C5C02F2867480011DF14 /* RxViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5BF2F2867480011DF14 /* RxViewProtocol.swift */; };
+		FAE7C5C22F2867570011DF14 /* RxInteractorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5C12F2867570011DF14 /* RxInteractorProtocol.swift */; };
+		FAE7C5C42F2867640011DF14 /* RxInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5C32F2867640011DF14 /* RxInteractor.swift */; };
+		FAE7C5C62F2867710011DF14 /* RxPresenterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5C52F2867690011DF14 /* RxPresenterProtocol.swift */; };
+		FAE7C5C82F28677D0011DF14 /* RxPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5C72F2867760011DF14 /* RxPresenter.swift */; };
+		FAE7C5CA2F2867880011DF14 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5C92F2867820011DF14 /* User.swift */; };
+		FAE7C5CC2F2867940011DF14 /* RxRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5CB2F2867900011DF14 /* RxRouterProtocol.swift */; };
+		FAE7C5CE2F2867A00011DF14 /* RxRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5CD2F2867970011DF14 /* RxRouter.swift */; };
+		FAE7C5D02F2867EB0011DF14 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5CF2F2867E90011DF14 /* Post.swift */; };
+		FAE7C5D32F28700A0011DF14 /* RxCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE7C5D12F28700A0011DF14 /* RxCellTableViewCell.swift */; };
+		FAE7C5D42F28700A0011DF14 /* RxCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE7C5D22F28700A0011DF14 /* RxCellTableViewCell.xib */; };
+		FAE7C5D72F2874C50011DF14 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5D62F2874C50011DF14 /* RealmSwift */; };
+		FAE7C5DA2F2874F90011DF14 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5D92F2874F90011DF14 /* RealmSwift */; };
+		FAE7C5DD2F2876A50011DF14 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAE7C5DC2F2876A50011DF14 /* RealmSwift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA579A472F2208E900098937 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA7162A42F0F4D0300CDB042 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA7162AB2F0F4D0300CDB042;
+			remoteInfo = UIKitBasic;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FA03847C2F15F82700EA53BF /* TableViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +111,29 @@
 		FA0384832F16216F00EA53BF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		FA0384862F1625EC00EA53BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		FA0EA81C2F14957300DF34DA /* ScrollViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewViewController.swift; sourceTree = "<group>"; };
+		FA2C43352F287D3300C1441F /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FA579A2E2F21FC8200098937 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA579A2F2F21FC8200098937 /* TabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPresenter.swift; sourceTree = "<group>"; };
+		FA579A302F21FC8200098937 /* TabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarRouter.swift; sourceTree = "<group>"; };
+		FA579A382F22007800098937 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FA579A392F22007800098937 /* CollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		FA579A432F2208E900098937 /* UIKitBasicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitBasicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA579A4C2F22092700098937 /* MockHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeView.swift; sourceTree = "<group>"; };
+		FA579A4D2F22092700098937 /* MockHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeInteractor.swift; sourceTree = "<group>"; };
+		FA579A4E2F22092700098937 /* MockHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockHomeRouter.swift; sourceTree = "<group>"; };
+		FA579A542F2218C000098937 /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		FA579A552F2218C000098937 /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		FA5EF4EF2F20853B00EAD431 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FA5EF4F02F20853B00EAD431 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FA5EF4F32F2086D600EAD431 /* HomeInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractorProtocol.swift; sourceTree = "<group>"; };
+		FA5EF4F52F2086F500EAD431 /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		FA5EF4F72F20872000EAD431 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		FA5EF4F92F20874D00EAD431 /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
+		FA5EF4FB2F2087DE00EAD431 /* HomePresenterProtocal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenterProtocal.swift; sourceTree = "<group>"; };
+		FA5EF4FD2F20880800EAD431 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FA5EF4FF2F2088A400EAD431 /* HomeViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewProtocol.swift; sourceTree = "<group>"; };
+		FA5EF5012F208B3C00EAD431 /* HomeRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouterProtocol.swift; sourceTree = "<group>"; };
+		FA5EF5032F208B4800EAD431 /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
 		FA7162AC2F0F4D0300CDB042 /* UIKitBasic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitBasic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA7162AF2F0F4D0300CDB042 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA7162B12F0F4D0300CDB042 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,13 +170,47 @@
 		FAAEC8772F1DE3C900A4144A /* UserInteractionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserInteractionViewController.xib; sourceTree = "<group>"; };
 		FAAEC87B2F1E152000A4144A /* LifecycleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifecycleViewController.swift; sourceTree = "<group>"; };
 		FAAEC87C2F1E152000A4144A /* LifecycleViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LifecycleViewController.xib; sourceTree = "<group>"; };
+		FAE7C5BB2F2867340011DF14 /* RxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewController.swift; sourceTree = "<group>"; };
+		FAE7C5BC2F2867340011DF14 /* RxViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxViewController.xib; sourceTree = "<group>"; };
+		FAE7C5BF2F2867480011DF14 /* RxViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxViewProtocol.swift; sourceTree = "<group>"; };
+		FAE7C5C12F2867570011DF14 /* RxInteractorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxInteractorProtocol.swift; sourceTree = "<group>"; };
+		FAE7C5C32F2867640011DF14 /* RxInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxInteractor.swift; sourceTree = "<group>"; };
+		FAE7C5C52F2867690011DF14 /* RxPresenterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPresenterProtocol.swift; sourceTree = "<group>"; };
+		FAE7C5C72F2867760011DF14 /* RxPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxPresenter.swift; sourceTree = "<group>"; };
+		FAE7C5C92F2867820011DF14 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FAE7C5CB2F2867900011DF14 /* RxRouterProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRouterProtocol.swift; sourceTree = "<group>"; };
+		FAE7C5CD2F2867970011DF14 /* RxRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRouter.swift; sourceTree = "<group>"; };
+		FAE7C5CF2F2867E90011DF14 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		FAE7C5D12F28700A0011DF14 /* RxCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxCellTableViewCell.swift; sourceTree = "<group>"; };
+		FAE7C5D22F28700A0011DF14 /* RxCellTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RxCellTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA579A442F2208E900098937 /* UIKitBasicTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = UIKitBasicTests; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
+		FA579A402F2208E900098937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE7C58E2F2757C50011DF14 /* RxTest in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA7162A92F0F4D0300CDB042 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE7C5DA2F2874F90011DF14 /* RealmSwift in Frameworks */,
+				FAE7C59B2F2865360011DF14 /* RealmSwift in Frameworks */,
+				FAE7C58A2F2757C50011DF14 /* RxRelay in Frameworks */,
+				FAE7C5DD2F2876A50011DF14 /* RealmSwift in Frameworks */,
+				FAE7C5D72F2874C50011DF14 /* RealmSwift in Frameworks */,
+				FAE7C5882F2757C50011DF14 /* RxCocoa in Frameworks */,
+				FAE7C58C2F2757C50011DF14 /* RxSwift in Frameworks */,
+				FAE7C5862F2757C50011DF14 /* RxBlocking in Frameworks */,
+				FAE7C5992F2865360011DF14 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,10 +227,110 @@
 			path = TableView;
 			sourceTree = "<group>";
 		};
+		FA579A312F21FC8200098937 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA579A2E2F21FC8200098937 /* TabBarController.swift */,
+				FA579A2F2F21FC8200098937 /* TabBarPresenter.swift */,
+				FA579A302F21FC8200098937 /* TabBarRouter.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		FA579A352F21FC8900098937 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EF4EA2F207F2B00EAD431 /* View */,
+				FA5EF4EB2F207F3100EAD431 /* Interactor */,
+				FA5EF4EC2F207F3A00EAD431 /* Presenter */,
+				FA5EF4ED2F207F5900EAD431 /* Entity */,
+				FA5EF4EE2F207F7500EAD431 /* Router */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FA579A4F2F22092700098937 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				FA579A4C2F22092700098937 /* MockHomeView.swift */,
+				FA579A4D2F22092700098937 /* MockHomeInteractor.swift */,
+				FA579A4E2F22092700098937 /* MockHomeRouter.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		FA579A532F2218A600098937 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FA579A542F2218C000098937 /* TestViewController.swift */,
+				FA579A552F2218C000098937 /* TestViewController.xib */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		FA5EF4E92F207F1E00EAD431 /* Viper */ = {
+			isa = PBXGroup;
+			children = (
+				FA579A4F2F22092700098937 /* Mock */,
+				FA579A352F21FC8900098937 /* Home */,
+				FA579A312F21FC8200098937 /* TabBar */,
+				FA5EF4F92F20874D00EAD431 /* LocalService.swift */,
+			);
+			path = Viper;
+			sourceTree = "<group>";
+		};
+		FA5EF4EA2F207F2B00EAD431 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EF4EF2F20853B00EAD431 /* HomeViewController.swift */,
+				FA5EF4F02F20853B00EAD431 /* HomeViewController.xib */,
+				FA5EF4FF2F2088A400EAD431 /* HomeViewProtocol.swift */,
+				FA579A382F22007800098937 /* CollectionViewCell.swift */,
+				FA579A392F22007800098937 /* CollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FA5EF4EB2F207F3100EAD431 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EF4F32F2086D600EAD431 /* HomeInteractorProtocol.swift */,
+				FA5EF4F72F20872000EAD431 /* HomeInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FA5EF4EC2F207F3A00EAD431 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EF4FB2F2087DE00EAD431 /* HomePresenterProtocal.swift */,
+				FA5EF4FD2F20880800EAD431 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FA5EF4ED2F207F5900EAD431 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EF4F52F2086F500EAD431 /* BaseModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FA5EF4EE2F207F7500EAD431 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EF5012F208B3C00EAD431 /* HomeRouterProtocol.swift */,
+				FA5EF5032F208B4800EAD431 /* HomeRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		FA7162A32F0F4D0300CDB042 = {
 			isa = PBXGroup;
 			children = (
 				FA7162AE2F0F4D0300CDB042 /* UIKitBasic */,
+				FA579A442F2208E900098937 /* UIKitBasicTests */,
 				FA7162AD2F0F4D0300CDB042 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -127,6 +339,7 @@
 			isa = PBXGroup;
 			children = (
 				FA7162AC2F0F4D0300CDB042 /* UIKitBasic.app */,
+				FA579A432F2208E900098937 /* UIKitBasicTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -134,7 +347,8 @@
 		FA7162AE2F0F4D0300CDB042 /* UIKitBasic */ = {
 			isa = PBXGroup;
 			children = (
-				FA8AF9A42F177F4100068B7A /* Model */,
+				FAE7C5962F2863F60011DF14 /* Concurrency */,
+				FA5EF4E92F207F1E00EAD431 /* Viper */,
 				FA7162C32F0F4EC900CDB042 /* App */,
 				FA7162C62F0F4F0100CDB042 /* Basics */,
 				FA7162C72F0F4F4000CDB042 /* Extensions */,
@@ -156,6 +370,8 @@
 		FA7162C62F0F4F0100CDB042 /* Basics */ = {
 			isa = PBXGroup;
 			children = (
+				FA579A532F2218A600098937 /* Test */,
+				FA8AF9A42F177F4100068B7A /* Model */,
 				FAAEC87A2F1E150000A4144A /* Lifecycle */,
 				FAAEC8752F1DE3A500A4144A /* UserInteraction */,
 				FAAEC8662F1DC5C900A4144A /* CalculatorCollectionView */,
@@ -297,9 +513,102 @@
 			path = Lifecycle;
 			sourceTree = "<group>";
 		};
+		FAE7C5962F2863F60011DF14 /* Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C59C2F2866E40011DF14 /* Rx */,
+			);
+			path = Concurrency;
+			sourceTree = "<group>";
+		};
+		FAE7C59C2F2866E40011DF14 /* Rx */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C5A32F2866F70011DF14 /* View */,
+				FAE7C5A62F2866F70011DF14 /* Interactor */,
+				FAE7C5A92F2866F70011DF14 /* Presenter */,
+				FAE7C5AB2F2866F70011DF14 /* Entity */,
+				FAE7C5AE2F2866F70011DF14 /* Router */,
+			);
+			path = Rx;
+			sourceTree = "<group>";
+		};
+		FAE7C5A32F2866F70011DF14 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C5BB2F2867340011DF14 /* RxViewController.swift */,
+				FAE7C5BF2F2867480011DF14 /* RxViewProtocol.swift */,
+				FAE7C5BC2F2867340011DF14 /* RxViewController.xib */,
+				FAE7C5D12F28700A0011DF14 /* RxCellTableViewCell.swift */,
+				FAE7C5D22F28700A0011DF14 /* RxCellTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAE7C5A62F2866F70011DF14 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C5C12F2867570011DF14 /* RxInteractorProtocol.swift */,
+				FAE7C5C32F2867640011DF14 /* RxInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		FAE7C5A92F2866F70011DF14 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C5C72F2867760011DF14 /* RxPresenter.swift */,
+				FAE7C5C52F2867690011DF14 /* RxPresenterProtocol.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FAE7C5AB2F2866F70011DF14 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				FA2C43352F287D3300C1441F /* Model.swift */,
+				FAE7C5CF2F2867E90011DF14 /* Post.swift */,
+				FAE7C5C92F2867820011DF14 /* User.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		FAE7C5AE2F2866F70011DF14 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				FAE7C5CD2F2867970011DF14 /* RxRouter.swift */,
+				FAE7C5CB2F2867900011DF14 /* RxRouterProtocol.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FA579A422F2208E900098937 /* UIKitBasicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA579A492F2208E900098937 /* Build configuration list for PBXNativeTarget "UIKitBasicTests" */;
+			buildPhases = (
+				FA579A3F2F2208E900098937 /* Sources */,
+				FA579A402F2208E900098937 /* Frameworks */,
+				FA579A412F2208E900098937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA579A482F2208E900098937 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA579A442F2208E900098937 /* UIKitBasicTests */,
+			);
+			name = UIKitBasicTests;
+			packageProductDependencies = (
+				FAE7C58D2F2757C50011DF14 /* RxTest */,
+			);
+			productName = UIKitBasicTests;
+			productReference = FA579A432F2208E900098937 /* UIKitBasicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		FA7162AB2F0F4D0300CDB042 /* UIKitBasic */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FA7162C02F0F4D0600CDB042 /* Build configuration list for PBXNativeTarget "UIKitBasic" */;
@@ -324,10 +633,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1520;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1520;
 				ORGANIZATIONNAME = "Pan Nguyen";
 				TargetAttributes = {
+					FA579A422F2208E900098937 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = FA7162AB2F0F4D0300CDB042;
+					};
 					FA7162AB2F0F4D0300CDB042 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -342,16 +655,28 @@
 				Base,
 			);
 			mainGroup = FA7162A32F0F4D0300CDB042;
+			packageReferences = (
+				FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */,
+				FAE7C5DB2F2876A50011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = FA7162AD2F0F4D0300CDB042 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FA7162AB2F0F4D0300CDB042 /* UIKitBasic */,
+				FA579A422F2208E900098937 /* UIKitBasicTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FA579A412F2208E900098937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA7162AA2F0F4D0300CDB042 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -361,20 +686,32 @@
 				FA0384872F1625EC00EA53BF /* Localizable.strings in Resources */,
 				FAAEC86F2F1DC64D00A4144A /* CalculatorViewCell.xib in Resources */,
 				FA8AF9AA2F18918300068B7A /* TableViewDemoViewController.xib in Resources */,
+				FA5EF4F12F20853B00EAD431 /* HomeViewController.xib in Resources */,
+				FA579A572F2218C000098937 /* TestViewController.xib in Resources */,
 				FA7162B92F0F4D0600CDB042 /* Assets.xcassets in Resources */,
 				FA8AF9A82F1788FB00068B7A /* ClassViewController.xib in Resources */,
+				FAE7C5D42F28700A0011DF14 /* RxCellTableViewCell.xib in Resources */,
 				FA7162B72F0F4D0300CDB042 /* Main.storyboard in Resources */,
 				FAAEC8782F1DE3C900A4144A /* UserInteractionViewController.xib in Resources */,
 				FA8AF9B62F18A9A100068B7A /* DemoTableViewCell.xib in Resources */,
+				FAE7C5BE2F2867340011DF14 /* RxViewController.xib in Resources */,
 				FA8AF9912F17548C00068B7A /* CalculatorViewController.xib in Resources */,
 				FAAEC87D2F1E152000A4144A /* LifecycleViewController.xib in Resources */,
 				FA8AF9972F1757ED00068B7A /* StructViewController.xib in Resources */,
+				FA579A3B2F22007800098937 /* CollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FA579A3F2F2208E900098937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FA7162A82F0F4D0300CDB042 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -382,34 +719,72 @@
 				FA8AF9B52F18A9A100068B7A /* DemoTableViewCell.swift in Sources */,
 				FAAEC87E2F1E152000A4144A /* LifecycleViewController.swift in Sources */,
 				FAA275752F10FBE500805227 /* TextFieldViewController.swift in Sources */,
+				FA579A322F21FC8200098937 /* TabBarPresenter.swift in Sources */,
+				FA579A332F21FC8200098937 /* TabBarController.swift in Sources */,
+				FA579A502F22092700098937 /* MockHomeRouter.swift in Sources */,
+				FA579A512F22092700098937 /* MockHomeInteractor.swift in Sources */,
+				FA579A522F22092700098937 /* MockHomeView.swift in Sources */,
+				FA579A342F21FC8200098937 /* TabBarRouter.swift in Sources */,
 				FA7162B42F0F4D0300CDB042 /* ViewController.swift in Sources */,
+				FA5EF5002F2088A400EAD431 /* HomeViewProtocol.swift in Sources */,
 				FA8AF9932F1754C600068B7A /* CalculatorViewController.swift in Sources */,
+				FA5EF5042F208B4800EAD431 /* HomeRouter.swift in Sources */,
 				FA8AF9A62F177F5600068B7A /* Vehicle.swift in Sources */,
+				FAE7C5C62F2867710011DF14 /* RxPresenterProtocol.swift in Sources */,
 				FA8E6C952F0FACC500BE129F /* ViewControllerPreview.swift in Sources */,
+				FA5EF4FC2F2087DE00EAD431 /* HomePresenterProtocal.swift in Sources */,
 				FA0384842F16216F00EA53BF /* LoginViewController.swift in Sources */,
+				FAE7C5C02F2867480011DF14 /* RxViewProtocol.swift in Sources */,
+				FAE7C5CA2F2867880011DF14 /* User.swift in Sources */,
 				FAAEC8722F1DC96800A4144A /* CalculatorButton.swift in Sources */,
+				FA5EF4FA2F20874D00EAD431 /* LocalService.swift in Sources */,
+				FA5EF4FE2F20880800EAD431 /* HomePresenter.swift in Sources */,
+				FAE7C5C82F28677D0011DF14 /* RxPresenter.swift in Sources */,
 				FA7162B02F0F4D0300CDB042 /* AppDelegate.swift in Sources */,
+				FA5EF4F82F20872000EAD431 /* HomeInteractor.swift in Sources */,
 				FA0384802F15F84B00EA53BF /* TableViewCellController.swift in Sources */,
+				FA5EF4F62F2086F500EAD431 /* BaseModel.swift in Sources */,
+				FAE7C5BD2F2867340011DF14 /* RxViewController.swift in Sources */,
 				FAAEC8792F1DE3C900A4144A /* UserInteractionViewController.swift in Sources */,
+				FA579A562F2218C000098937 /* TestViewController.swift in Sources */,
 				FA0384822F15FC9400EA53BF /* Video.swift in Sources */,
+				FA5EF5022F208B3C00EAD431 /* HomeRouterProtocol.swift in Sources */,
 				FA0EA81D2F14957300DF34DA /* ScrollViewViewController.swift in Sources */,
+				FAE7C5D02F2867EB0011DF14 /* Post.swift in Sources */,
 				FAA7B60C2F10E51B0064839B /* ImageViewController.swift in Sources */,
 				FAAEC8742F1DC99A00A4144A /* Calculator.swift in Sources */,
 				FAA7B60E2F10E8D70064839B /* ShapeViewController.swift in Sources */,
 				FA7162B22F0F4D0300CDB042 /* SceneDelegate.swift in Sources */,
+				FAE7C5CE2F2867A00011DF14 /* RxRouter.swift in Sources */,
 				FAAEC86C2F1DC63000A4144A /* CalculatorCollectionViewController.swift in Sources */,
+				FA5EF4F22F20853B00EAD431 /* HomeViewController.swift in Sources */,
 				FA8AF9AC2F18927900068B7A /* TableViewDemoViewController.swift in Sources */,
 				FAA275732F10F70800805227 /* StackViewController.swift in Sources */,
+				FAE7C5CC2F2867940011DF14 /* RxRouterProtocol.swift in Sources */,
 				FAAEC8702F1DC64D00A4144A /* CalculatorViewCell.swift in Sources */,
 				FA7162CD2F0F99AF00CDB042 /* ButtonViewController.swift in Sources */,
 				FA03847D2F15F82700EA53BF /* TableViewViewController.swift in Sources */,
+				FA5EF4F42F2086D600EAD431 /* HomeInteractorProtocol.swift in Sources */,
+				FAE7C5D32F28700A0011DF14 /* RxCellTableViewCell.swift in Sources */,
+				FA579A3A2F22007800098937 /* CollectionViewCell.swift in Sources */,
+				FAE7C5C22F2867570011DF14 /* RxInteractorProtocol.swift in Sources */,
+				FAE7C5C42F2867640011DF14 /* RxInteractor.swift in Sources */,
 				FA8AF99F2F17582400068B7A /* ClassViewController.swift in Sources */,
+				FA2C43362F287D3500C1441F /* Model.swift in Sources */,
 				FA7162CB2F0F6C1400CDB042 /* LabelViewController.swift in Sources */,
 				FA8AF99B2F17580B00068B7A /* StructViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA579A482F2208E900098937 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA7162AB2F0F4D0300CDB042 /* UIKitBasic */;
+			targetProxy = FA579A472F2208E900098937 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FA0384852F1625EC00EA53BF /* Localizable.strings */ = {
@@ -439,6 +814,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FA579A4A2F2208E900098937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNBXKDP93D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UIKitBasicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKitBasic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIKitBasic";
+			};
+			name = Debug;
+		};
+		FA579A4B2F2208E900098937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HNBXKDP93D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UIKitBasicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UIKitBasic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UIKitBasic";
+			};
+			name = Release;
+		};
 		FA7162BE2F0F4D0600CDB042 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -573,11 +986,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.UIKitBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -602,11 +1016,12 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACH_O_TYPE = mh_execute;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.UIKitBasic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -619,6 +1034,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FA579A492F2208E900098937 /* Build configuration list for PBXNativeTarget "UIKitBasicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA579A4A2F2208E900098937 /* Debug */,
+				FA579A4B2F2208E900098937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FA7162A72F0F4D0300CDB042 /* Build configuration list for PBXProject "UIKitBasic" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -638,6 +1062,102 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift";
+			requirement = {
+				kind = exactVersion;
+				version = 6.0.0;
+			};
+		};
+		FAE7C5972F2865360011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FAE7C5D52F2874C50011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FAE7C5D82F2874F90011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		FAE7C5DB2F2876A50011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift";
+			requirement = {
+				kind = exactVersion;
+				version = 10.48.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAE7C5852F2757C50011DF14 /* RxBlocking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxBlocking;
+		};
+		FAE7C5872F2757C50011DF14 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		FAE7C5892F2757C50011DF14 /* RxRelay */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxRelay;
+		};
+		FAE7C58B2F2757C50011DF14 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+		FAE7C58D2F2757C50011DF14 /* RxTest */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5842F2757C50011DF14 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxTest;
+		};
+		FAE7C5982F2865360011DF14 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5972F2865360011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		FAE7C59A2F2865360011DF14 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5972F2865360011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		FAE7C5D62F2874C50011DF14 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5D52F2874C50011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		FAE7C5D92F2874F90011DF14 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5D82F2874F90011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		FAE7C5DC2F2876A50011DF14 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE7C5DB2F2876A50011DF14 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FA7162A42F0F4D0300CDB042 /* Project object */;
 }

@@ -7,7 +7,7 @@
 //
 
 
-import Foundation
+import UIKit
 
 class Calculator {
     private var displayText: String = "0"
